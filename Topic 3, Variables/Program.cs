@@ -1,6 +1,6 @@
 ﻿string name, eyes, teeth, hair, course, full_name;
 int age, height, weight, room, grad_year;
-double price;
+double price, radius;
 
 name = "John Smith";
 age = 35;     //not a lie
@@ -14,6 +14,7 @@ room = 29;
 price = 2.99;
 full_name = "Julian McGuire";
 grad_year = 2027;
+radius = 5;
 
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Let's talk about " + name + ".");
@@ -34,4 +35,7 @@ Console.WriteLine("I am learning a bit about " + course + "!");
 Console.ReadLine();
 Console.WriteLine("My name is " + full_name + " and I'll graduate in " + grad_year  + ".");
 Console.ReadLine();
+Console.WriteLine("The area of a circle with a radius of " + radius + "cm is " + 3.14*(radius*radius));
+Console.ReadLine();
 Console.WriteLine();
+Console.ReadLine();
