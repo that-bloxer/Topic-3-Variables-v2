@@ -35,7 +35,7 @@ Console.WriteLine("I am learning a bit about " + course + "!");
 Console.ReadLine();
 Console.WriteLine("My name is " + full_name + " and I'll graduate in " + grad_year  + ".");
 Console.ReadLine();
-Console.WriteLine("The area of a circle with a radius of " + radius + "cm is " + 3.14*(radius*radius));
+Console.WriteLine("The area of a circle with a radius of " + radius + "cm is " + 3.14*(radius*radius) + ".");
 Console.ReadLine();
 Console.WriteLine();
 Console.ReadLine();
